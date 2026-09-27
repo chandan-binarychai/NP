@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — binarychai.</title>
+<meta name="description" content="Start a project with binarychai. — reach the studio in New Delhi or Mumbai.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<script>
+  (function(){ try{ document.documentElement.setAttribute('data-theme', localStorage.getItem('bc-theme') || 'light'); }catch(e){} })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap">
+    <nav class="nav" aria-label="Primary">
+      <a class="logo" href="./index.html">binarychai<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="./work.html">Work</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./blog.html">Insights</a></li>
+        <li><a href="./contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" aria-label="Toggle dark mode"><span class="knob"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><circle cx="12" cy="12" r="4"/></svg></span></button>
+        <a class="btn btn-solid btn-sm" href="mailto:hello@binarychai.com">Email Us</a>
+        <button class="burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="Mobile navigation" hidden>
+    <a href="./work.html">Work</a>
+    <a href="./services.html">Services</a>
+    <a href="./about.html">About</a>
+    <a href="./blog.html">Insights</a>
+    <a href="./contact.html">Contact</a>
+    <a class="btn btn-solid" href="mailto:hello@binarychai.com">Email Us</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="wrap reveal reveal-load">
+      <p class="eyebrow">Contact</p>
+      <h1>Let's build something <em class="serif">great.</em></h1>
+      <p>New project, redesign, or just an idea — tell us about it and we'll get back within a day.</p>
+    </div>
+  </section>
+
+  <section aria-label="Contact details and form">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <dl class="contact-info">
+          <dt>Email</dt><dd><a href="mailto:hello@binarychai.com">hello@binarychai.com</a></dd>
+          <dt>Phone</dt><dd><a href="tel:+919999234245">+91 99992 34245</a></dd>
+          <dt>Studios</dt><dd>New Delhi · Mumbai, India</dd>
+          <dt>Social</dt>
+          <dd style="display:flex; gap:16px; font-size:15px;">
+            <a href="https://x.com/binarychai" rel="noopener" target="_blank">X</a>
+            <a href="https://in.linkedin.com/company/binarychai" rel="noopener" target="_blank">LinkedIn</a>
+            <a href="https://www.facebook.com/binarychai/" rel="noopener" target="_blank">Facebook</a>
+          </dd>
+        </dl>
+      </div>
+
+      <form class="reveal" id="contactForm" onsubmit="return false;" aria-label="Project enquiry form">
+        <!-- Demo form only — wire the action/fetch below to your CMS or form-handling endpoint (e.g. Formspree, a WordPress REST route, or your own API) to make this live. -->
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button class="btn btn-solid" type="submit" style="width:100%; justify-content:center;">Send Message <span aria-hidden="true">→</span></button>
+        <p id="formNote" role="status" style="margin-top:16px; font-size:13px; color:var(--muted);"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="./index.html">binarychai<span>.</span></a>
+        <p class="foot-desc">A digital product studio in New Delhi &amp; Mumbai — building websites, commerce and apps where creativity meets technology.</p>
+      </div>
+      <nav class="foot-col" aria-label="Services">
+        <h4>Services</h4>
+        <a href="./services.html">Websites</a><a href="./services.html">E-commerce</a><a href="./services.html">Web &amp; Mobile Apps</a><a href="./services.html">UI/UX Design</a>
+      </nav>
+      <nav class="foot-col" aria-label="Studio">
+        <h4>Studio</h4>
+        <a href="./work.html">Work</a><a href="./about.html">About</a><a href="./blog.html">Insights</a><a href="./contact.html">Contact</a>
+      </nav>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@binarychai.com">hello@binarychai.com</a>
+        <a href="tel:+919999234245">+91 99992 34245</a>
+        <p>New Delhi · Mumbai</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> BinaryChai. All rights reserved.</span>
+      <div class="socials">
+        <a href="https://x.com/binarychai" rel="noopener" target="_blank">X</a>
+        <a href="https://in.linkedin.com/company/binarychai" rel="noopener" target="_blank">LinkedIn</a>
+        <a href="https://www.facebook.com/binarychai/" rel="noopener" target="_blank">Facebook</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="./main.js" defer></script>
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(){
+    // Placeholder: replace with a real fetch() to your form-handling endpoint.
+    document.getElementById('formNote').textContent = "This is a static demo — connect this form to your email/CMS endpoint to go live.";
+  });
+</script>
+</body>
+</html>
