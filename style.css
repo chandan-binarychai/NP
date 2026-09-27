@@ -123,15 +123,13 @@ a:focus-visible, button:focus-visible{
 .logo img {
   width: 100px;
   height: auto;
+  display: block;
 }
 
 :root[data-theme="dark"] .logo img {
   filter: invert(1);
 }
-img {
-  width: 100px;
-  height: 100px;
-}
+
 .nav-links{ display:flex; gap:36px; font-size:14px; font-weight:500; }
 .nav-links a{ position:relative; padding:4px 0; }
 .nav-links a::after{
